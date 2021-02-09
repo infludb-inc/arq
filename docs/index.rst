@@ -167,6 +167,10 @@ optionally with a duration to defer rerunning the jobs by:
 
 .. literalinclude:: examples/retry.py
 
+To cancel a job, call :func:`arq.job.Job.cancel`.
+
+.. literalinclude:: examples/job_abort.py
+
 Health checks
 .............
 
